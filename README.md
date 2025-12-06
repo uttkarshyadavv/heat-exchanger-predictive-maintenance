@@ -72,11 +72,6 @@ project-root/
 └── README.md
     └── project documentation
 
-Yes, there are **two layers** of triple backticks. The outer one tells GitHub “treat everything inside as literal text,” so it won’t try to convert tree characters into inline formatting.
-
-Paste exactly this and it will finally behave.
-
-
 6. Applications
 
 Predictive maintenance for process industries
