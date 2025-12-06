@@ -4,16 +4,17 @@ This project builds a Random Forest–based predictive maintenance system for a 
 
 1. Overview
 
-Fouling in heat exchangers leads to reduced heat transfer efficiency, higher energy consumption, and unexpected shutdowns.
+Fouling in heat exchangers reduces heat transfer efficiency, increases energy consumption, and can lead to unexpected shutdowns.
+
 This project introduces a data-driven monitoring approach, where:
 
 Sensor-derived temperature and flow data are used to compute U_A
 
 A Random Forest regression model learns the normal operational pattern
 
-Deviations between predicted and actual U_A indicate onset of fouling
+Deviations between predicted and actual U_A indicate the onset of fouling
 
-The system provides an easy, scalable method for early detection of performance degradation.
+The system provides a simple, scalable method for early detection of performance degradation.
 
 2. Key Features
 
@@ -45,16 +46,13 @@ Train Random Forest model on healthy period
 
 Predict U_A for later data
 
-Compare actual vs predicted to identify residual spikes
+Compare actual vs predicted values to identify residual spikes
 
 Detect anomalies indicating fouling
 
 Plot U_A trends and anomaly points
 
-## 5. Repository Structure
-
-
-
+5. Repository Structure
 project-root/
 │
 ├── data/
@@ -95,4 +93,4 @@ Integration with SCADA/DCS systems
 8. Author
 
 Utkarsh Yadav
-www.linkedin.com/in/utkarsh-yadavv
+🔗 https://www.linkedin.com/in/utkarsh-yadavv
