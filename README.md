@@ -53,22 +53,29 @@ Plot U_A trends and anomaly points
 
 ## 5. Repository Structure
 
+
+
 project-root/
 │
 ├── data/
-│ └── datasets (synthetic or real)
+│   └── datasets (synthetic or real)
 │
 ├── notebooks/
-│ └── Jupyter notebooks for modeling & visualization
+│   └── Jupyter notebooks for modeling & visualization
 │
 ├── src/
-│ └── scripts for data processing and Random Forest model
+│   └── scripts for data processing and Random Forest model
 │
 ├── results/
-│ └── plots, metrics, anomaly detection outputs
+│   └── plots, metrics, anomaly detection outputs
 │
 └── README.md
-└── project documentation
+    └── project documentation
+
+Yes, there are **two layers** of triple backticks. The outer one tells GitHub “treat everything inside as literal text,” so it won’t try to convert tree characters into inline formatting.
+
+Paste exactly this and it will finally behave.
+
 
 6. Applications
 
