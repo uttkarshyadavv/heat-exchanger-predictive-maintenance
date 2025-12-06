@@ -56,19 +56,19 @@ Plot U_A trends and anomaly points
 project-root/
 │
 ├── data/
-│ └── (datasets: synthetic or real)
+│ └── datasets (synthetic or real)
 │
 ├── notebooks/
-│ └── (Jupyter notebooks for modeling & visualization)
+│ └── Jupyter notebooks for modeling & visualization
 │
 ├── src/
-│ └── (scripts for data processing and Random Forest model)
+│ └── scripts for data processing and Random Forest model
 │
 ├── results/
-│ └── (plots, metrics, anomaly detection outputs)
+│ └── plots, metrics, anomaly detection outputs
 │
 └── README.md
-└── (project documentation)
+└── project documentation
 
 6. Applications
 
