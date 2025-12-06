@@ -51,12 +51,24 @@ Detect anomalies indicating fouling
 
 Plot U_A trends and anomaly points
 
-5. Repository Structure
-├── data/                # Datasets (synthetic or real)
-├── notebooks/           # Jupyter notebooks for modeling & visualization
-├── src/                 # Scripts for data processing and Random Forest model
-├── results/             # Output plots and anomaly detection results
-└── README.md            # Project documentation
+## 5. Repository Structure
+
+project-root/
+│
+├── data/
+│ └── (datasets: synthetic or real)
+│
+├── notebooks/
+│ └── (Jupyter notebooks for modeling & visualization)
+│
+├── src/
+│ └── (scripts for data processing and Random Forest model)
+│
+├── results/
+│ └── (plots, metrics, anomaly detection outputs)
+│
+└── README.md
+└── (project documentation)
 
 6. Applications
 
